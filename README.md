@@ -2,13 +2,16 @@
 Predicting whether the income > 50K based on the information about the individuals.
 
 Here are the input parameters available in the dataset 
+
+```
 'age', 'workclass', 'fnlwgt', 'education', 'education_num','marital_status', 'occupation', 'relationship', 'race', 'gender',
 'capital_gain', 'capital_loss', 'hours_per_week', 'native_country',
-    
+``` 
 The output named 'income_bracket' tells us  predict whether the income is greater than 50K    
    
 Here is the sample dataset
 
+```
 age          workclass  fnlwgt   education  education_num  \
 0   50   Self-emp-not-inc   83311   Bachelors             13
 1   38            Private  215646     HS-grad              9
@@ -29,3 +32,4 @@ age          workclass  fnlwgt   education  education_num  \
 2             0             0              40   United-States               0
 3             0             0              40            Cuba               0
 4             0             0              40   United-States               0
+```
